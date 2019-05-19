@@ -9,11 +9,7 @@ class QuoteForm extends Component {
    content: '', author: '' 
   }
   
-  
-  state = {
-    content: '',
-    author: ''
-  }
+
 
   handleOnChange = event => {
     // Handle Updating Component State
