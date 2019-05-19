@@ -12,7 +12,10 @@ class QuoteForm extends Component {
 
 
   handleOnChange = event => {
-    // Handle Updating Component State
+    const { value, name } = event.target;
+    this.setState({
+      [name]: value
+    });
   }
 
   handleOnSubmit = event => {
