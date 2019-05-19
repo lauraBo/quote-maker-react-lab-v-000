@@ -44,6 +44,7 @@ handleOnSubmit = event => {
                       <textarea
                         className="form-control"
                         value={this.state.content}
+                         onChange={this.handleOnChange}
                       />
                     </div>
                   </div>
