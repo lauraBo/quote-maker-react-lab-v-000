@@ -55,6 +55,7 @@ handleOnSubmit = event => {
                         className="form-control"
                         type="text"
                         value={this.state.author}
+                        onChange={this.handleOnChange}
                       />
                     </div>
                   </div>
