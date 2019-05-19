@@ -73,4 +73,5 @@ handleOnSubmit = event => {
 }
 
 //add arguments to connect as needed
-export default connect()(QuoteForm);
+
+export default connect(null, { addQuote })(QuoteForm);
